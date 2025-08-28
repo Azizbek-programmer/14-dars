@@ -20,9 +20,10 @@ const Users = () => {
 
   return (
     <div className="users">
+      <h2 className="users__title">Users</h2>
       <div className="container">
       {data.map(user => (
-        <div className="user_card" key={user.id} style={{ border: "1px solid gray", padding: "10px", borderRadius: "8px" }}>
+        <div className="user_card" key={user.id}>
           <h3>{user.name}</h3>
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>

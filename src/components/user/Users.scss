@@ -1,5 +1,14 @@
 .users{
     display: grid;
     gap: 15px;
-    // grid-template-columns: repeat(5, 1fr);
+    .users__title{
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .user_card{
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 8px;
+        margin: 10px;
+    }
 }

@@ -1,8 +1,9 @@
 import React from "react";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <footer style={{ background: "#333", color: "white", padding: "10px", textAlign: "center" }}>
+    <footer className="fotter">
     </footer>
   );
 };

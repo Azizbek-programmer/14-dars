@@ -9,11 +9,11 @@ const Header = ({ setPage }) => {
           onClick={() => setPage("posts")} >Posts</button>
         <button 
           onClick={() => setPage("products")} >
-          Maxsulotlar
+          Products
         </button>
         <button 
           onClick={() => setPage("users")} >
-          Foydalanuvchilar
+          Users
         </button>
       </nav>
     </header>
