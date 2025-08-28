@@ -1,0 +1,17 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-between;
+    gap: 30px;
+    button{
+        gap: 30px;
+        padding: 15px;
+        color: white;
+        cursor: pointer;
+        border: 1px solid white;
+        background: transparent;
+        border-radius: 15px;
+    }
+}

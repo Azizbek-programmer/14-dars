@@ -1,0 +1,14 @@
+.posts {
+  display: grid;
+  gap: 15px;
+  .posts__title{
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+  .posts__card {
+      border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+}
