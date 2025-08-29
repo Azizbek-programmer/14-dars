@@ -10,7 +10,7 @@ const Posts = () => {
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
-      .then(res => setData(res.data.slice(0, 10))) 
+      .then(res => setData(res.data)) 
       .catch(err => setError(err))
       .finally(() => setLoading(false));
   }, []);
